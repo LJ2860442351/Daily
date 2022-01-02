@@ -6,6 +6,8 @@
 		 a、配置邮箱：git config --global user.email "email@example.com"
 		 b、配置账号：git config --global user.name "Your Name"
 	3、配置完成之后可以查看当前的git的版本号：git --version
+		<img width="223" alt="git" src="https://user-images.githubusercontent.com/31836769/147870720-f25a4757-dbfb-4b57-a429-67c78252cef6.png">
+
 	4、生成git的密钥命令如下：
 		ssh-keygen -R "email@example.com"
 		命令执行后可以重新命名，也可以直接按三次enter键
@@ -64,4 +66,4 @@
 
 		sudo gitlab-ctl tail nginx/gitlab_acces.log 	#查看 nginx 访问日志
 
-		sudo gitlab-ctl tail postgresql					#查看 postgresql 日志
+		sudo gitlab-ctl tail postgresql			#查看 postgresql 日志
